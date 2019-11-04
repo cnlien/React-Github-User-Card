@@ -4,7 +4,6 @@ import { Card, CardImg, CardTitle, CardBody, CardText, CardLink } from 'reactstr
 import 'bootstrap/dist/css/bootstrap.css';
 
 const MyCard = props => {
-
     return (
         <Card>
             <CardImg top width="100%" src={props.avatar_url} />
