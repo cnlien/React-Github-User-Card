@@ -1,12 +1,12 @@
 import React from 'react';
-import {Card} from 'reactstrap'
+import { Card } from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.css';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-     <Card>Github User card</Card>
+      <h1>Hello World</h1>
     </div>
   );
 }
