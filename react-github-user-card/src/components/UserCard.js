@@ -1,9 +1,8 @@
-// import React, { Component } from 'react';
 import React from 'react';
 import { Card, CardImg, CardTitle, CardBody, CardText, CardLink } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
-const MyCard = props => {
+const UserCard = props => {
     return (
         <Card>
             <CardImg top width="100%" src={props.avatar_url} />
@@ -16,4 +15,4 @@ const MyCard = props => {
     );
 }
 
-export default MyCard;
+export default UserCard;
