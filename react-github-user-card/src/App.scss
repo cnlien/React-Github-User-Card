@@ -1,0 +1,25 @@
+.cardContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  
+  .my-card {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .friend-cards {
+    width: 75%;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+
+    .card {
+      flex-basis: 225px;
+      margin: 10px;
+    }
+  }
+
+  
+
+}
